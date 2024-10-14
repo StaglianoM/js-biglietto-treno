@@ -11,5 +11,8 @@ if (userAge < 18) {
 } else if (userAge >= 65) {
     prezzoFinale = prezzoBaseBiglietto - (prezzoBaseBiglietto * 40 / 100)
 }
-console.log(prezzoFinale.toFixed(2))
+prezzoFinale = parseFloat(prezzoFinale.toFixed(2)); 
+console.log(prezzoFinale)
+
+
 
